@@ -3,17 +3,48 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-from src.strings_basic import testing
+import logging
+import os
+import logging.config
+from datetime import datetime
+from dotenv import find_dotenv, load_dotenv
+from src.strings_basic import count_unique_letters
+
+env_file = find_dotenv()
+load_dotenv()
+
+CONFIG_DIR = "./config"
+LOG_DIR = "./logs"
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+8 to toggle the breakpoint.
-    print(testing())
+def setup_logging():
+    """Load logging configuration"""
+    log_configs = {"dev": "logging.dev.ini", "prod": "logging.prod.ini"}
+    config = log_configs.get(os.environ["ENV"])
+    config_path = "/".join([CONFIG_DIR, config])
+
+    timestamp = datetime.now().strftime("%Y%m%d-%H:%M:%S")
+
+    logging.config.fileConfig(
+        config_path,
+        disable_existing_loggers=False,
+        defaults={"logfilename": f"{LOG_DIR}/{timestamp}.log"},
+    )
+
+
+def string_challenge() -> None:
+    """Runs all the exercises defined in the string challenge
+    Args: None
+    Returns: None
+    Raises: None
+    """
+    return None
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    setup_logging()
+    logger = logging.getLogger(__name__)
+    logger.info("Program started")
+    string_challenge()
+    logger.info("Program finished")
