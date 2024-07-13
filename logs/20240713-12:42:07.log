@@ -1,0 +1,2 @@
+2024-07-13 12:42:07,403 - INFO - __main__ - <module>:49 - Program started
+2024-07-13 12:42:07,403 - ERROR - root - count_unique_letters:24 - 2242 is not a string

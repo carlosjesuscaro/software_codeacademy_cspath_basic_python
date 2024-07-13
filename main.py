@@ -38,6 +38,7 @@ def string_challenge() -> None:
     Returns: None
     Raises: None
     """
+    count_unique_letters(2242)
     return None
 
 

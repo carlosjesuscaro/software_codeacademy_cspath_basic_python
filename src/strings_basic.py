@@ -21,8 +21,11 @@ def count_unique_letters(data: str) -> int:
     """
 
     if not isinstance(data, str):
+        logging.error(f"{data} is not a string")
         raise ValueError("Data must be string")
 
     lower_case = data.lower()
     base = "abcdefghijklmnopqrstuvwxyz"
-    return len(set(lower_case))
+    count = len(set(lower_case))
+    logging.debug(f"Counted unique letters: {count}")
+    return count
