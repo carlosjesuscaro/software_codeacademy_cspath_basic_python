@@ -1,0 +1,6 @@
+2024-07-14 12:56:15,610 - INFO - __main__ - <module>:50 - Program started
+2024-07-14 12:56:15,610 - DEBUG - root - count_unique_letters:30 - Counted unique letters: 6
+2024-07-14 12:56:15,610 - INFO - __main__ - <module>:52 - Program finished
+2024-07-14 12:56:45,706 - INFO - __main__ - <module>:50 - Program started
+2024-07-14 12:56:45,706 - DEBUG - root - count_unique_letters:30 - Counted unique letters: 6
+2024-07-14 12:56:45,706 - INFO - __main__ - <module>:52 - Program finished

@@ -30,7 +30,7 @@ def setup_logging():
     logging.config.fileConfig(
         config_path,
         disable_existing_loggers=False,
-        defaults={"logfilename": f"{LOG_DIR}/{timestamp}.log"},
+        defaults={"logfilename": f"{LOG_DIR}/{os.environ['ENV']}.{timestamp}.log"},
     )
 
 def string_challenge() -> None:
