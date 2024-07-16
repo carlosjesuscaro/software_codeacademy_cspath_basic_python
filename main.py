@@ -17,15 +17,14 @@ def setup_logging():
     log_configs = {"dev": "logging.dev.ini", "prod": "logging.prod.ini"}
     config = log_configs.get(os.environ["ENV"])
     config_path = "/".join([CONFIG_DIR, config])
-
-    # timestamp = datetime.now().strftime("%Y%m%d-%H:%M:%S")
     timestamp = datetime.now().strftime("%Y%m%d")
 
     logging.config.fileConfig(
         config_path,
         disable_existing_loggers=False,
-        defaults={"logfilename": f"{LOG_DIR}/{os.environ['ENV']}.{timestamp}.log"},
+        defaults={"log_file_name": f"{LOG_DIR}/{os.environ['ENV']}.{timestamp}.log"},
     )
+
 
 def string_challenge() -> None:
     """Runs all the exercises defined in the string challenge
@@ -33,7 +32,9 @@ def string_challenge() -> None:
     Returns: None
     Raises: None
     """
-    count_unique_letters('carlos')
+    list_strings = ['carlos', 'natalia is playing at the park', 'Lucas is watching the soccer GAME', 232, '']
+    for element in list_strings:
+        count_unique_letters(element)
     return None
 
 

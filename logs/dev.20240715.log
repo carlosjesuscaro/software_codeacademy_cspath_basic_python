@@ -1,0 +1,18 @@
+2024-07-15 20:14:59,522 - INFO - __main__ - <module>:46 - Program started
+2024-07-15 20:14:59,522 - DEBUG - root - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 20:14:59,522 - DEBUG - root - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 20:14:59,522 - DEBUG - root - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 20:14:59,522 - ERROR - root - count_unique_letters:34 - The data type is not a string, it is <class 'int'>
+2024-07-15 20:32:05,260 - INFO - __main__ - <module>:46 - Program started
+2024-07-15 20:32:05,260 - DEBUG - root - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 20:32:05,261 - DEBUG - root - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 20:32:05,261 - DEBUG - root - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 20:32:05,261 - ERROR - root - count_unique_letters:34 - The data type is not a string, it is <class 'int'>
+2024-07-15 20:32:05,261 - INFO - __main__ - <module>:48 - Program finished
+2024-07-15 21:24:12,264 - INFO - __main__ - <module>:45 - Program started
+2024-07-15 21:24:12,264 - DEBUG - root - count_unique_letters:32 - carlos has 6 unique letters
+2024-07-15 21:24:12,264 - DEBUG - root - count_unique_letters:32 - natalia is playing at the park has 13 unique letters
+2024-07-15 21:24:12,264 - DEBUG - root - count_unique_letters:32 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 21:24:12,264 - ERROR - root - count_unique_letters:38 - The data type is not a string, it is <class 'int'>
+2024-07-15 21:24:12,264 - WARNING - root - count_unique_letters:35 - Empty string
+2024-07-15 21:24:12,264 - INFO - __main__ - <module>:47 - Program finished
