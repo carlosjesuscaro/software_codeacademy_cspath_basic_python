@@ -16,3 +16,56 @@
 2024-07-15 21:24:12,264 - ERROR - root - count_unique_letters:38 - The data type is not a string, it is <class 'int'>
 2024-07-15 21:24:12,264 - WARNING - root - count_unique_letters:35 - Empty string
 2024-07-15 21:24:12,264 - INFO - __main__ - <module>:47 - Program finished
+2024-07-15 23:34:29,283 - INFO - __main__ - <module>:46 - Program started
+2024-07-15 23:34:29,283 - DEBUG - root - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 23:34:29,283 - DEBUG - root - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 23:34:29,283 - DEBUG - root - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 23:34:29,283 - ERROR - root - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-15 23:34:29,283 - WARNING - root - count_unique_letters:34 - Empty string
+2024-07-15 23:34:29,283 - INFO - __main__ - <module>:48 - Program finished
+2024-07-15 23:37:14,306 - INFO - __main__ - <module>:46 - Program started
+2024-07-15 23:37:14,306 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 23:37:14,306 - DEBUG - src.strings_basic - count_character:60 - c is 1 time(s) in carlos
+2024-07-15 23:37:14,306 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 23:37:14,306 - DEBUG - src.strings_basic - count_character:60 - n is 2 time(s) in natalia is playing at the park
+2024-07-15 23:37:14,306 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 23:37:14,306 - DEBUG - src.strings_basic - count_character:60 - L is 1 time(s) in Lucas is watching the soccer GAME
+2024-07-15 23:37:14,306 - ERROR - root - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-15 23:37:53,391 - INFO - __main__ - <module>:46 - Program started
+2024-07-15 23:38:01,964 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 23:38:09,528 - DEBUG - src.strings_basic - count_character:60 - c is 1 time(s) in carlos
+2024-07-15 23:38:18,913 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 23:38:22,051 - DEBUG - src.strings_basic - count_character:60 - n is 2 time(s) in natalia is playing at the park
+2024-07-15 23:38:51,846 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 23:40:36,981 - INFO - __main__ - <module>:46 - Program started
+2024-07-15 23:40:36,981 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 23:40:36,981 - DEBUG - src.strings_basic - count_character:60 - a is 1 time(s) in carlos
+2024-07-15 23:40:36,981 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 23:40:36,981 - DEBUG - src.strings_basic - count_character:60 - a is 6 time(s) in natalia is playing at the park
+2024-07-15 23:40:36,981 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 23:40:36,981 - DEBUG - src.strings_basic - count_character:60 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-15 23:40:36,981 - ERROR - root - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-15 23:43:30,248 - INFO - __main__ - <module>:47 - Program started
+2024-07-15 23:43:30,248 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 23:43:30,248 - DEBUG - src.strings_basic - count_character:60 - a is 1 time(s) in carlos
+2024-07-15 23:43:30,248 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 23:43:30,248 - DEBUG - src.strings_basic - count_character:60 - a is 6 time(s) in natalia is playing at the park
+2024-07-15 23:43:30,248 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 23:43:30,248 - DEBUG - src.strings_basic - count_character:60 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-15 23:43:30,248 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-15 23:43:30,248 - ERROR - src.strings_basic - count_character:66 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-15 23:43:30,248 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-15 23:43:30,248 - WARNING - src.strings_basic - count_character:63 - string length: 0 and character length: 1
+2024-07-15 23:43:30,248 - INFO - __main__ - <module>:49 - Program finished
+2024-07-15 23:49:11,676 - INFO - __main__ - <module>:46 - Program started
+2024-07-15 23:49:11,676 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-15 23:49:11,676 - DEBUG - src.strings_basic - count_character:60 - a is 1 time(s) in carlos
+2024-07-15 23:49:11,676 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-15 23:49:11,676 - DEBUG - src.strings_basic - count_character:60 - a is 6 time(s) in natalia is playing at the park
+2024-07-15 23:49:11,676 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-15 23:49:11,676 - DEBUG - src.strings_basic - count_character:60 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-15 23:49:11,676 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-15 23:49:11,676 - ERROR - src.strings_basic - count_character:66 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-15 23:49:11,676 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-15 23:49:11,676 - WARNING - src.strings_basic - count_character:63 - string length: 0 and character length: 1
+2024-07-15 23:49:11,676 - INFO - __main__ - <module>:48 - Program finished

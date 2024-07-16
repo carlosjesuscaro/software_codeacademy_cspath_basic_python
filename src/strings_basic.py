@@ -21,21 +21,20 @@ def count_unique_letters(data: str) -> int:
 
     try:
         data_lower = data.lower()
-        base = "abcdefghijklmnopqrstuvwxyz"
         count = 0
         tracking = []
         if len(data) != 0:
             for letter in data_lower:
-                if (letter in base) & (letter not in tracking):
+                if (letter.isalpha()) & (letter not in tracking):
                     count += 1
                     tracking.append(letter)
-            logging.debug(f"{data} has {count} unique letters")
+            logger.debug(f"{data} has {count} unique letters")
             return count
         else:
-            logging.warning(f"Empty string")
+            logger.warning(f"Empty string")
             return -2
     except AttributeError:
-        logging.error(f'The data type is not a string, it is {type(data)}')
+        logger.error(f'The data type is not a string, it is {type(data)}')
         return -1
 
 # Challenge 2: Count the number a specific character is repeated in a string
@@ -52,3 +51,17 @@ def count_character(data: str, letter: str) -> int:
         AttributeError: If data is not a string, the error is caught with a try-except block
     """
 
+    try:
+        if (len(data) != 0) & (len(letter) == 1):
+            lower_data, lower_letter, count = data.lower(), letter.lower(), 0
+            for char in lower_data:
+                if char == lower_letter:
+                    count += 1
+            logger.debug(f"{letter} is {count} time(s) in {data}")
+            return count
+        else:
+            logger.warning(f"string length: {len(data)} and character length: {len(letter)}")
+            return -2
+    except TypeError:
+        logger.error(f'Data type issue: string type: {type(data)} and character type: {type(letter)}')
+        return -1

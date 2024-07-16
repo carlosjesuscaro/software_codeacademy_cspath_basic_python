@@ -3,7 +3,7 @@ import logging
 import logging.config
 from datetime import datetime
 from dotenv import find_dotenv, load_dotenv
-from src.strings_basic import count_unique_letters
+from src.strings_basic import *
 
 env_file = find_dotenv()
 load_dotenv()
@@ -35,6 +35,7 @@ def string_challenge() -> None:
     list_strings = ['carlos', 'natalia is playing at the park', 'Lucas is watching the soccer GAME', 232, '']
     for element in list_strings:
         count_unique_letters(element)
+        count_character(element, 'a')
     return None
 
 
