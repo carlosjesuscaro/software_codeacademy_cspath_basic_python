@@ -33,8 +33,9 @@ def count_unique_letters(data: str) -> int:
         else:
             logger.warning(f"Empty string")
             return -2
-    except AttributeError:
+    except Exception as error:
         logger.error(f'The data type is not a string, it is {type(data)}')
+        logger.error(f'An exception occurred: {type(error).__name__}')
         return -1
 
 # Challenge 2: Count the number a specific character is repeated in a string
@@ -62,6 +63,7 @@ def count_character(data: str, letter: str) -> int:
         else:
             logger.warning(f"string length: {len(data)} and character length: {len(letter)}")
             return -2
-    except TypeError:
+    except Exception as error:
         logger.error(f'Data type issue: string type: {type(data)} and character type: {type(letter)}')
+        logger.error(f'An exception occurred: {type(error).__name__}')
         return -1

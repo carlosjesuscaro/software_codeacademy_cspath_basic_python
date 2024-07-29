@@ -1,0 +1,102 @@
+2024-07-28 22:22:05,254 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:22:05,254 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:22:05,254 - DEBUG - src.strings_basic - count_character:61 - a is 1 time(s) in carlos
+2024-07-28 22:22:05,254 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:22:05,254 - DEBUG - src.strings_basic - count_character:61 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:22:05,254 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:22:05,254 - DEBUG - src.strings_basic - count_character:61 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:22:05,254 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-28 22:22:05,254 - ERROR - src.strings_basic - count_unique_letters:38 - 'int' object has no attribute 'lower'
+2024-07-28 22:22:05,254 - ERROR - src.strings_basic - count_character:67 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:22:05,254 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:22:05,254 - WARNING - src.strings_basic - count_character:64 - string length: 0 and character length: 1
+2024-07-28 22:22:05,254 - INFO - __main__ - <module>:47 - Program finished
+2024-07-28 22:25:13,227 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:25:13,227 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:25:13,227 - DEBUG - src.strings_basic - count_character:62 - a is 1 time(s) in carlos
+2024-07-28 22:25:13,227 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:25:13,227 - DEBUG - src.strings_basic - count_character:62 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:25:13,227 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:25:13,227 - DEBUG - src.strings_basic - count_character:62 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:25:13,227 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-28 22:25:13,227 - ERROR - src.strings_basic - count_unique_letters:38 - 'int' object has no attribute 'lower'
+2024-07-28 22:25:13,228 - ERROR - src.strings_basic - count_character:68 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:25:13,228 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:25:13,228 - WARNING - src.strings_basic - count_character:65 - string length: 0 and character length: 1
+2024-07-28 22:25:13,228 - INFO - __main__ - <module>:47 - Program finished
+2024-07-28 22:31:19,216 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:31:19,216 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:31:19,216 - DEBUG - src.strings_basic - count_character:62 - a is 1 time(s) in carlos
+2024-07-28 22:31:19,216 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:31:19,216 - DEBUG - src.strings_basic - count_character:62 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:31:19,216 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:31:19,216 - DEBUG - src.strings_basic - count_character:62 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:31:19,216 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-28 22:31:19,216 - ERROR - src.strings_basic - count_character:68 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:31:19,216 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:31:19,216 - WARNING - src.strings_basic - count_character:65 - string length: 0 and character length: 1
+2024-07-28 22:31:19,216 - INFO - __main__ - <module>:47 - Program finished
+2024-07-28 22:32:04,593 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:32:04,593 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:32:04,593 - DEBUG - src.strings_basic - count_character:62 - a is 1 time(s) in carlos
+2024-07-28 22:32:04,593 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:32:04,593 - DEBUG - src.strings_basic - count_character:62 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:32:04,593 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:32:04,593 - DEBUG - src.strings_basic - count_character:62 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:32:04,594 - ERROR - src.strings_basic - count_character:68 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:32:04,594 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:32:04,594 - WARNING - src.strings_basic - count_character:65 - string length: 0 and character length: 1
+2024-07-28 22:32:04,594 - INFO - __main__ - <module>:47 - Program finished
+2024-07-28 22:32:32,364 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:32:32,365 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:32:32,365 - DEBUG - src.strings_basic - count_character:62 - a is 1 time(s) in carlos
+2024-07-28 22:32:32,365 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:32:32,365 - DEBUG - src.strings_basic - count_character:62 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:32:32,365 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:32:32,365 - DEBUG - src.strings_basic - count_character:62 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:32:32,365 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-28 22:32:32,365 - ERROR - src.strings_basic - count_unique_letters:38 - 'int' object has no attribute 'lower'
+2024-07-28 22:32:32,365 - ERROR - src.strings_basic - count_character:68 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:32:32,365 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:32:32,365 - WARNING - src.strings_basic - count_character:65 - string length: 0 and character length: 1
+2024-07-28 22:32:32,365 - INFO - __main__ - <module>:47 - Program finished
+2024-07-28 22:34:40,307 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:34:40,307 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:34:40,307 - DEBUG - src.strings_basic - count_character:62 - a is 1 time(s) in carlos
+2024-07-28 22:34:40,307 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:34:40,307 - DEBUG - src.strings_basic - count_character:62 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:34:40,307 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:34:40,307 - DEBUG - src.strings_basic - count_character:62 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:34:40,307 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-28 22:34:40,307 - ERROR - src.strings_basic - count_unique_letters:39 - An exception occurred: <class 'AttributeError'>
+2024-07-28 22:34:40,307 - ERROR - src.strings_basic - count_character:68 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:34:40,307 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:34:40,307 - WARNING - src.strings_basic - count_character:65 - string length: 0 and character length: 1
+2024-07-28 22:34:40,307 - INFO - __main__ - <module>:47 - Program finished
+2024-07-28 22:35:45,033 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:35:45,033 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:35:45,033 - DEBUG - src.strings_basic - count_character:62 - a is 1 time(s) in carlos
+2024-07-28 22:35:45,033 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:35:45,033 - DEBUG - src.strings_basic - count_character:62 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:35:45,033 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:35:45,033 - DEBUG - src.strings_basic - count_character:62 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:35:45,033 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-28 22:35:45,033 - ERROR - src.strings_basic - count_unique_letters:39 - An exception occurred: AttributeError
+2024-07-28 22:35:45,033 - ERROR - src.strings_basic - count_character:68 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:35:45,033 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:35:45,033 - WARNING - src.strings_basic - count_character:65 - string length: 0 and character length: 1
+2024-07-28 22:35:45,033 - INFO - __main__ - <module>:47 - Program finished
+2024-07-28 22:53:27,888 - INFO - __main__ - <module>:45 - Program started
+2024-07-28 22:53:27,888 - DEBUG - src.strings_basic - count_unique_letters:31 - carlos has 6 unique letters
+2024-07-28 22:53:27,888 - DEBUG - src.strings_basic - count_character:61 - a is 1 time(s) in carlos
+2024-07-28 22:53:27,888 - DEBUG - src.strings_basic - count_unique_letters:31 - natalia is playing at the park has 13 unique letters
+2024-07-28 22:53:27,888 - DEBUG - src.strings_basic - count_character:61 - a is 6 time(s) in natalia is playing at the park
+2024-07-28 22:53:27,888 - DEBUG - src.strings_basic - count_unique_letters:31 - Lucas is watching the soccer GAME has 15 unique letters
+2024-07-28 22:53:27,888 - DEBUG - src.strings_basic - count_character:61 - a is 3 time(s) in Lucas is watching the soccer GAME
+2024-07-28 22:53:27,888 - ERROR - src.strings_basic - count_unique_letters:37 - The data type is not a string, it is <class 'int'>
+2024-07-28 22:53:27,888 - ERROR - src.strings_basic - count_unique_letters:38 - An exception occurred: AttributeError
+2024-07-28 22:53:27,888 - ERROR - src.strings_basic - count_character:67 - Data type issue: string type: <class 'int'> and character type: <class 'str'>
+2024-07-28 22:53:27,888 - ERROR - src.strings_basic - count_character:68 - An exception occurred: TypeError
+2024-07-28 22:53:27,888 - WARNING - src.strings_basic - count_unique_letters:34 - Empty string
+2024-07-28 22:53:27,888 - WARNING - src.strings_basic - count_character:64 - string length: 0 and character length: 1
+2024-07-28 22:53:27,888 - INFO - __main__ - <module>:47 - Program finished
