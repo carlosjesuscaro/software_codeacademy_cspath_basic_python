@@ -31,10 +31,15 @@ def string_challenge() -> None:
     Returns: None
     Raises: None
     """
+    # Challenge 1 and 2
     list_strings = ['carlos', 'natalia is playing at the park', 'Lucas is watching the soccer GAME', 232, '']
     for element in list_strings:
         count_unique_letters(element)
         count_character(element, 'a')
+
+    # Challenge 3
+    string_within_string('natalia is playing at the park', 'Natalia')
+    string_within_string('Lucas is watching the soccer GAME', 25)
     return None
 
 
